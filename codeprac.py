@@ -23,6 +23,43 @@ else:
 
 
 
+'''
+for i in range(1, 101):
+    if i % 2 == 0:
+        print(i, "is Even")
+    else:
+        print(i, "is Odd")
+'''
+
+'''
+even_numbers = []
+odd_numbers = []   #SEPERATING EVEN AND ODD NUMBERS#
+
+for i in range(1, 101):
+    if i % 2 == 0:
+        even_numbers.append(i)
+    else:
+        odd_numbers.append(i)
+
+print("Even numbers:", even_numbers)
+print("Odd numbers:", odd_numbers)
+'''
+
+
+'''
+even_numbers = []
+odd_numbers = []
+for i in range(1, 101):
+    if i % 2 == 0:
+        print(f"{i} is an even number")
+        even_numbers.append(i)
+    else:
+        print(f"{i} is an odd number")
+        odd_numbers.append(i)
+'''
+
+
+
 
 
 
