@@ -57,8 +57,18 @@ for i in range(1, 101):
         print(f"{i} is an odd number")
         odd_numbers.append(i)
 '''
-
-
+'''
+#generating fibanaci series with python
+user_in = int(input("enter the limit: "))
+num_1 = 0
+num_2 = 1
+print(num_1, num_2, end=" ")
+for v in range(user_in+1):
+    num_3 = num_1 + num_2
+    num_1 = num_2
+    num_2 = num_3
+    print(num_3,end=" ")
+'''
 
 
 
