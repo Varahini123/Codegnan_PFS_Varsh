@@ -2,7 +2,7 @@
 #A list in Python is a collection of items stored in a single variable.
 
 # Create a list
-any = [1, 2, 3,a,b]
+any = [1, 2, 3, a, b]
 
 print("Original list:", nums)
 
@@ -85,81 +85,4 @@ print(x) #output:true
 #isdecimal()
 #islower()
 #isupper()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
