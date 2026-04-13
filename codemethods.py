@@ -44,3 +44,122 @@ print("Copied list:", new_list)
 # ----------- Clearing -----------
 nums.clear()           # removes all elements
 print("Cleared list:", nums)
+
+#Remove spaces at the beginning and at the end of the string:
+txt = "     banana     "
+x = txt.strip()
+print("of all fruits", x, "is my favorite")
+#-------------------------------------------------------------------------->
+#Replace the word "bananas":
+txt = "I like bananas"
+x = txt.replace("bananas", "apples")
+print(x)
+#-------------------------------------------------------------------------->
+#Split a string into a list where each word is a list item:
+txt = "welcome to the jungle"
+x = txt.split()
+print(x)  #output:['welcome', 'to', 'the', 'jungle']
+#-------------------------------------------------------------------------->
+#Upper case the first letter in this sentence:
+txt = "hello, and welcome to my world."
+x = txt.capitalize()
+print (x) #output:Hello, and welcome to my world.
+#-------------------------------------------------------------------------->
+#Make the string lower case:
+txt = "Hello, And Welcome To My World!"
+x = txt.casefold()
+print(x)  #output: hello, and welcome to my world!
+#-------------------------------------------------------------------------->
+#Check if all the characters in the text are alphanumeric:
+txt = "Company12"
+x = txt.isalnum()
+print(x)  #output:true
+#-------------------------------------------------------------------------->
+#Check if all the characters in the text are letters:
+txt = "CompanyX"
+x = txt.isalpha()
+print(x) #output:true
+#-------------------------------------------------------------------------->
+#other methods
+#isdigit()
+#isdecimal()
+#islower()
+#isupper()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
