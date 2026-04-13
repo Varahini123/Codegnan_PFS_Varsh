@@ -2,7 +2,7 @@
 #A list in Python is a collection of items stored in a single variable.
 
 # Create a list
-nums = [1, 2, 3]
+any = [1, 2, 3,a,b]
 
 print("Original list:", nums)
 
